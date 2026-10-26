@@ -3,9 +3,6 @@
 A responsive landing page for a fictional nail salon. I built it as my first project to practice structuring a single-page site, styling it without a framework, and making it convert visitors into bookings.
 
 The salon, its prices, address and phone number are made up. The goal was the page, not the business.
-
-**Live demo:** _add your Netlify or GitHub Pages link here_
-
 ---
 
 ## What it includes
