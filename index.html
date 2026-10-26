@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dorée Nails | Manicura y nail art en Santo Domingo</title>
+<meta name="description" content="Manicura clásica, semipermanente, acrílicas y nail art. Reserva tu cita en Dorée Nails.">
+<meta property="og:title" content="Dorée Nails">
+<meta property="og:description" content="Manicura y nail art con acabado impecable. Reserva tu cita.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#inicio" class="logo">Dorée</a>
+  <button class="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#servicios">Servicios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#precios">Precios</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#reservar" class="btn btn-small">Reservar</a>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-text">
+    <h1>Uñas que se notan por su cuidado.</h1>
+    <p>Manicura y nail art hechas con calma, buenos productos y atención al detalle. Tu cita, sin prisas.</p>
+    <div class="hero-actions">
+      <a href="#reservar" class="btn">Reservar mi cita</a>
+      <a href="#galeria" class="link">Ver trabajos</a>
+    </div>
+  </div>
+  <figure class="hero-photo ph">
+    <img src="img/foto1.webp" alt="Manicura francesa azul pastel con detalles dorados">
+  </figure>
+</section>
+
+<section id="servicios" class="section">
+  <h2>Servicios</h2>
+  <div class="services">
+    <article><h3>Manicura clásica</h3><p>Limado, cuidado de cutícula y esmaltado tradicional.</p></article>
+    <article><h3>Semipermanente</h3><p>Color y brillo hasta tres semanas sin desgaste.</p></article>
+    <article><h3>Acrílicas y gel</h3><p>Extensiones con la forma y el largo que prefieras.</p></article>
+    <article><h3>Nail art</h3><p>Diseños a mano, foil dorado y detalles personalizados.</p></article>
+  </div>
+</section>
+
+<section id="galeria" class="section alt">
+  <h2>Nuestros trabajos</h2>
+  <div class="gallery">
+    <figure class="ph"><img src="img/foto1.webp" alt="Manicura francesa azul pastel con detalles dorados" loading="lazy"></figure>
+    <figure class="ph"><img src="img/foto2.webp" alt="Uñas almendra amarillo suave con mariposa y flores 3D" loading="lazy"></figure>
+    <figure class="ph"><img src="img/foto3.webp" alt="Manicura francesa blanca con flor 3D" loading="lazy"></figure>
+    <figure class="ph"><img src="img/foto4.webp" alt="Uñas nude con lazos y cristales" loading="lazy"></figure>
+  </div>
+</section>
+
+<section id="precios" class="section">
+  <h2>Precios</h2>
+  <ul class="prices">
+    <li><span>Manicura clásica</span><i></i><b>RD$ 600</b></li>
+    <li><span>Semipermanente</span><i></i><b>RD$ 900</b></li>
+    <li><span>Acrílicas</span><i></i><b>RD$ 1,800</b></li>
+    <li><span>Nail art (por uña)</span><i></i><b>desde RD$ 100</b></li>
+    <li><span>Pedicura spa</span><i></i><b>RD$ 1,200</b></li>
+  </ul>
+  <p class="note">Primera visita: 10% de descuento al mencionar esta web.</p>
+</section>
+
+<section id="opiniones" class="section alt">
+  <h2>Lo que dicen nuestras clientas</h2>
+  <div class="reviews">
+    <blockquote><p>Mi semipermanente duró tres semanas intacto. El local es tranquilo y muy limpio.</p><cite>Camila R.</cite></blockquote>
+    <blockquote><p>Me hicieron exactamente el diseño que llevé de referencia, con el dorado justo.</p><cite>Andrea M.</cite></blockquote>
+    <blockquote><p>Puntuales y cuidadosas. Ya agendé mi próxima cita.</p><cite>Valeria P.</cite></blockquote>
+  </div>
+</section>
+
+<section id="reservar" class="section booking">
+  <div>
+    <h2>Reserva tu cita</h2>
+    <p>Escríbenos por WhatsApp o déjanos tus datos y te confirmamos el horario.</p>
+    <dl>
+      <dt>Horario</dt><dd>Lunes a sábado, 9:00 a 19:00</dd>
+      <dt>Dirección</dt><dd>Calle Ejemplo 123, Santo Domingo</dd>
+      <dt>Teléfono</dt><dd>+1 809 000 0000</dd>
+    </dl>
+  </div>
+  <form id="form" novalidate>
+    <label>Nombre<input type="text" name="nombre" required></label>
+    <label>Teléfono<input type="tel" name="telefono" required></label>
+    <label>Servicio
+      <select name="servicio">
+        <option>Manicura clásica</option><option>Semipermanente</option>
+        <option>Acrílicas y gel</option><option>Nail art</option>
+      </select>
+    </label>
+    <label>Fecha preferida<input type="date" name="fecha"></label>
+    <button class="btn" type="submit">Enviar solicitud</button>
+    <p class="msg" role="status" aria-live="polite"></p>
+  </form>
+</section>
+</main>
+
+<footer>
+  <span class="logo">Dorée</span>
+  <p>© 2026 Dorée Nails. Proyecto de práctica.</p>
+  <a href="#">Instagram</a>
+</footer>
+
+<a class="wa" href="https://wa.me/18090000000?text=Hola%2C%20quiero%20reservar%20una%20cita" target="_blank" rel="noopener">WhatsApp</a>
+<div class="lightbox" hidden><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
